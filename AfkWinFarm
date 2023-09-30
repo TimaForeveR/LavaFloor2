@@ -1,0 +1,9 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+ Title = "Script is worked!";
+ Text = "t.me/myletakykey";
+ Icon = "rbxthumb://type=Asset&id=14435031323&w=150&h=150"})
+Duration = 5;
+while true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.2678837776184082, 20.337535858154297, 241.4691619873047)
+wait(0.1)
+end
